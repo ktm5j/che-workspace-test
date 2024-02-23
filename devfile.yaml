@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: docker.io/continuumio/anaconda3:latest
+      image: docker.io/katevdi/vdi-conda:latest
       volumeMounts:
         - name: venv
           path: /home/user/.venv
