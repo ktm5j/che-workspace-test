@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: docker.io/katevdi/vdi-conda:latest
+      image: docker.io/katevdi/vdi-ub8:latest
       volumeMounts:
         - name: venv
           path: /home/user/.venv
